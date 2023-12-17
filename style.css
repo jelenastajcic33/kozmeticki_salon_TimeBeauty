@@ -1,0 +1,333 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.top-panel {
+    background-color: #ffeded;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.top-panel a {
+    color: #aecaa9;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.top-panel a:hover {
+    color: #549aab;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+header {
+    background-color: #aecaa9;
+    padding: 20px 0px;
+
+}
+
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+nav ul {
+    float: right;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffeded;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #e7eada;
+}
+
+#usluge {
+    margin-top: 50px;
+}
+
+#usluge h2 {
+    color: #d0adba;
+    text-align: left;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+#usluge h2:hover {
+    background-color: #aecaa9;
+}
+
+#usluge p {
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#usluge h3 {
+    color: #d0adba;
+    text-align: left;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.usluga {
+    margin-bottom: 30px;
+}
+
+.usluga img {
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+#galerija {
+    margin-top: 50px;
+
+}
+
+#galerija h2 {
+    color: #d0adba;
+    text-align: center;
+}
+
+#galerija h2:hover {
+    background-color: #8ca289;
+}
+
+.slika {
+    margin-bottom: 20px;
+}
+
+.slika img {
+
+    max-width: 80%;
+    height: auto;
+    border: 2px solid#8ca289;
+    border-radius: 30px;
+    transition: 0.5s ease;
+
+}
+
+
+.sidebar {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: #aecaa9;
+
+}
+
+.social-links h3 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.popular-content h3 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+
+.social-links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.popular-content a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.popular-content li {
+    margin-bottom: 10px;
+}
+
+.social-links a:hover {
+    color: #d0adba;
+}
+
+.popular-content a:hover {
+    color: #d0adba;
+}
+
+footer {
+    background-color: #aecaa9;
+    color: aliceblue;
+    padding: 20px 0px;
+}
+
+
+.salon-info p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1, 5;
+    float: left;
+}
+
+.salon-info img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.contact-info {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: right;
+}
+
+.comtact-info p {
+    margin: 5px 0px;
+}
+
+.contact-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+
+
+.contact-form {
+    width: 1000px;
+    height: 550px;
+    margin: 100px auto;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 3px 6px 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-left,
+.form-right {
+    width: 50%;
+    height: 100%;
+}
+
+.form-left h3 {
+    text-align: center;
+}
+
+
+.input-fields {
+    width: 300px;
+    margin: 15px auto;
+}
+
+.input-fields input {
+    width: 280px;
+    padding: 10px;
+    border: 2px solid #123740;
+    border-radius: 10px;
+}
+
+.input-fields p {
+    margin: 0;
+}
+
+.input-fields textarea {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #123740;
+    border-radius: 10px;
+}
+
+.submit-btn {
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #123740;
+    border: 2px solid #123740;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.submit-btn:hover {
+    background-color: skyblue;
+}
+
+.form-right {
+    background-image: url("img/pozadina2.jpg");
+    background-size: cover;
+}
+
+
+
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 220px;
+    background-color: #aecaa9;
+}
+
+.footer-navbar ul {
+    text-align: center;
+}
+
+.footer-navbar ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 70px;
+    
+}
+
+.footer-navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 100px;
+    position: absolute;
+
+    animation: butterfly 5s infinite linear;
+}
+
+@keyframes butterfly {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 1000px;
+    }
+}
